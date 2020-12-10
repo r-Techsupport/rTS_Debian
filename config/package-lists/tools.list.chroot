@@ -1,0 +1,26 @@
+# tools list
+## basics
+openssh-client
+chntpw
+curl
+wget
+
+## disk tools
+gparted
+testdisk
+gddrescue
+smartmontools
+gsmartcontrol
+clonezilla
+
+## net tools
+dnsutils
+traceroute
+gnome-nettool
+
+## encryption
+cryptsetup
+dislocker
+
+## files
+p7zip-full

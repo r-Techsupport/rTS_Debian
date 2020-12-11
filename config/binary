@@ -86,8 +86,8 @@ LB_ISO_PREPARER="PipeItToDevNull"
 LB_ISO_PUBLISHER="r/techsupport"
 
 # $LB_ISO_VOLUME: set iso volume (max 32 chars)
-# (Default: Debian buster 20201210-11:07)
-LB_ISO_VOLUME="Debian buster 20201210-11:07"
+# (Default: Debian buster $(date +%Y%m%d-%H:%M))
+LB_ISO_VOLUME="Debian buster $(date +%Y%m%d-%H:%M)"
 
 # $LB_JFFS2_ERASEBLOCK: set jffs2 eraseblock size
 # (Default: unset)

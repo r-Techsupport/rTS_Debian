@@ -1,12 +1,18 @@
 #!/bin/bash
 
 lb clean --purge
+rm -rf config/binary config/bootstrap config/build config/chroot config/common
 lb config \
 	-b iso \
+	--uefi-secure-boot auto \
 	--cache false \
 	--apt-recommends true \
 	-a amd64 \
 	--binary-images iso \
+	--distribution buster \
+	--distribution-chroot buster \
+	--distribution-binary buster \
+	--backports true \
 	--mode debian \
 	--system live \
 	--debian-installer-gui false \
@@ -18,4 +24,5 @@ lb config \
 	--updates true \
 	--iso-application "r/techsupport testing and rescue media" \
 	--iso-preparer "PipeItToDevNull" \
-	--iso-publisher "r/techsupport"
+	--iso-publisher "r/techsupport" \
+	--interactive false

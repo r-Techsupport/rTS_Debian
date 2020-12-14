@@ -1,0 +1,22 @@
+# support package list
+## disk tools
+disk tools
+smartmontools
+gsmartcontrol
+
+## files
+p7zip-full
+
+## net tools
+dnsutils
+traceroute
+gnome-nettool
+
+# encryption
+cryptsetup
+dislocker
+
+# recovery tools
+testdisk
+gddrescue
+clonezilla

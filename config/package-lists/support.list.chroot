@@ -3,6 +3,7 @@
 disk tools
 smartmontools
 gsmartcontrol
+nwipe
 
 ## files
 p7zip-full

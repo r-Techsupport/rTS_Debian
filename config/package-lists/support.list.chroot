@@ -3,6 +3,7 @@
 smartmontools
 gsmartcontrol
 nwipe
+hdparm
 
 ## files
 p7zip-full

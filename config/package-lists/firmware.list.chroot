@@ -3,5 +3,4 @@ firmware-iwlwifi
 firmware-realtek
 firmware-atheros
 firmware-bnx2
-firmware-bnx2x
 firmware-brcm80211

@@ -3,5 +3,8 @@
 curl
 wget
 
+## efi
+efibootmgr
+
 ## disk tools
 gparted

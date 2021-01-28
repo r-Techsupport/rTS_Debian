@@ -10,8 +10,6 @@ lb config \
 	-a amd64 \
 	--binary-images iso \
 	--distribution buster \
-	--distribution-chroot buster \
-	--distribution-binary buster \
 	--backports true \
 	--mode debian \
 	--system live \

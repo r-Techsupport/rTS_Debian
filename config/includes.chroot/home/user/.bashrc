@@ -148,7 +148,7 @@ function git-setup {
 export -f wttr
 export PATH="$PATH:$HOME/.rvm/"
 export -f speed
-export VISUAL=vim
+export VISUAL=nano
 export EDITOR="$VISUAL"
 
 # Commands

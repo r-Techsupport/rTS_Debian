@@ -19,10 +19,10 @@ hfsprogs
 p7zip-full
 
 ## net tools
-zenmap
 dnsutils
 traceroute
 gnome-nettool
+wireshark-gtk
 
 ## encryption
 cryptsetup

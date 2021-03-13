@@ -6,26 +6,37 @@ This is build is for Buster with backports of `linux-image-amd64` 5.9 and AMD fi
 
 See `config\package-lists\` for included packages.
 
-#### Support package list
-###### Disk tools
-* smartmontools
-* gsmartcontrol
-* nwipe
-* hdparm
+### Tools list
+#### basics
+curl
+wget
 
-###### Files
-* p7zip-full
+#### efi
+efibootmgr
 
-###### Net tools
-* dnsutils
-* traceroute
-* gnome-nettool
+#### disk tools
+gparted
+smartmontools
+gsmartcontrol
+nwipe
+hdparm
+ntfs-3g
+hfsprogs
 
-###### Encryption
-* cryptsetup
-* dislocker
+#### files
+p7zip-full
 
-###### Recovery tools
-* testdisk
-* gddrescue
-* clonezilla
+#### net tools
+dnsutils
+traceroute
+gnome-nettool
+wireshark-gtk
+
+#### encryption
+cryptsetup
+dislocker
+
+#### recovery tools
+testdisk
+gddrescue
+clonezilla

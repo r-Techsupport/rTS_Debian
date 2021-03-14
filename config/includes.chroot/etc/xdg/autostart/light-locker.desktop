@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Screen Locker
+Comment=Lock screen program
+Exec=light-locker
+NoDisplay=True
+Hidden=True

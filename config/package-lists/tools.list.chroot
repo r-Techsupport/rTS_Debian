@@ -2,6 +2,8 @@
 ## basics
 curl
 wget
+openssh-client
+vim
 
 ## efi
 efibootmgr

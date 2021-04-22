@@ -14,9 +14,3 @@ label live-@FLAVOUR@-failsafe
 label memtest
 	menu label ^Memtest 86+
 	linux /live/memtest
-
-label
-	menu label ^Clonezilla
-	linux @LINUX@
-	initrd @INITRD@
-	append boot=live components quiet init=/bin/bash /usr/sbin/clonezilla

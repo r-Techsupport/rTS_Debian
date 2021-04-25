@@ -8,35 +8,36 @@ See `config\package-lists\` for included packages.
 
 ### Tools list
 #### basics
-curl
-wget
+* curl
+* wget
 
 #### efi
-efibootmgr
+* efibootmgr
 
 #### disk tools
-gparted
-smartmontools
-gsmartcontrol
-nwipe
-hdparm
-ntfs-3g
-hfsprogs
+* gparted
+* smartmontools
+* gsmartcontrol
+* nwipe
+* hdparm
+* ntfs-3g
+* hfsprogs
+* nvme-cli
 
 #### files
-p7zip-full
+* p7zip-full
 
 #### net tools
-dnsutils
-traceroute
-gnome-nettool
-wireshark-gtk
+* dnsutils
+* traceroute
+* gnome-nettool
+* wireshark-gtk
 
 #### encryption
-cryptsetup
-dislocker
+* cryptsetup
+* dislocker
 
 #### recovery tools
-testdisk
-gddrescue
-clonezilla
+* testdisk
+* gddrescue
+* clonezilla

@@ -1,3 +1,6 @@
+# amd firmware
+firmware-amd-graphics
+
 # network firmware
 firmware-iwlwifi
 firmware-realtek

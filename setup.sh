@@ -9,8 +9,8 @@ lb config \
 	--apt-recommends true \
 	-a amd64 \
 	--binary-images iso \
-	--distribution buster \
-	--backports true \
+	--distribution bullseye \
+	--backports false \
 	--mode debian \
 	--system live \
 	--debian-installer-gui false \

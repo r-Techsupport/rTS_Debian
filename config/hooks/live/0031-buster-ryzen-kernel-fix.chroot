@@ -1,3 +1,0 @@
-apt-get -t buster-backports install "linux-image-amd64" -y
-apt-get -t buster-backports install "firmware-amd-graphics" -y
-apt-get purge linux-image-4.19.* -y

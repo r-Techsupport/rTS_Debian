@@ -2,7 +2,7 @@
 
 This media was created to assist users trying to rescue their systems and data. It contains the tools required to recover files, check network issues, and manipulate or verify disks and their health.
 
-This is build is for Buster with backports of `linux-image-amd64` 5.9 and AMD firmware.
+This is build is for Bullseye (11).
 
 See `config\package-lists\` for included packages.
 
@@ -22,6 +22,7 @@ nwipe
 hdparm
 ntfs-3g
 hfsprogs
+nvme-cli
 
 #### files
 p7zip-full

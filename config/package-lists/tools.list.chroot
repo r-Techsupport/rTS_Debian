@@ -16,6 +16,7 @@ nwipe
 hdparm
 ntfs-3g
 hfsprogs
+nvme-cli
 
 ## files
 p7zip-full

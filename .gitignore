@@ -4,3 +4,8 @@ config/bootstrap
 config/build
 config/chroot
 config/common
+live-image-amd64.*
+chroot.*
+binary/
+cache/
+chroot/

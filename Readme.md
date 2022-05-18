@@ -10,6 +10,8 @@ See `config\package-lists\` for included packages.
 #### basics
 * curl
 * wget
+* mousepad
+* firefox-esr
 
 #### efi
 * efibootmgr

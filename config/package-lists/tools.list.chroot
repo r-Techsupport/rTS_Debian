@@ -4,6 +4,7 @@ curl
 wget
 openssh-client
 vim
+mousepad
 
 ## efi
 efibootmgr

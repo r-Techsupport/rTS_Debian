@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# setup
 lb clean --purge
 rm -rf config/binary config/bootstrap config/build config/chroot config/common
 lb config \
@@ -24,3 +25,6 @@ lb config \
 	--iso-preparer "PipeItToDevNull" \
 	--iso-publisher "r/techsupport" \
 	--interactive false
+
+# build
+lb build

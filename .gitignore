@@ -4,8 +4,10 @@ config/bootstrap
 config/build
 config/chroot
 config/common
-live-image-amd64.*
-chroot.*
+config/hooks/normal/0500-reproducible-glibc.hook.chroot
 binary/
 cache/
 chroot/
+live-image-amd64.*
+chroot.*
+binary.modified_timestamps

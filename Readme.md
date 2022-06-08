@@ -9,17 +9,17 @@ See `config\package-lists\` for included packages.
 ## Build
 This process has been containerized requiring `podman` and `buildah`. Execute the respective scripts (`Buildah.sh` and `PodmanRun.sh`) to produce an ISO based on the files contained in `/config`.
 
-### Tools list
-#### basics
+## Tools list
+### basics
 * curl
 * wget
 * mousepad
 * firefox-esr
 
-#### efi
+### efi
 * efibootmgr
 
-#### disk tools
+### disk tools
 * gparted
 * smartmontools
 * gsmartcontrol
@@ -29,20 +29,20 @@ This process has been containerized requiring `podman` and `buildah`. Execute th
 * hfsprogs
 * nvme-cli
 
-#### files
+### files
 * p7zip-full
 
-#### net tools
+### net tools
 * dnsutils
 * traceroute
 * gnome-nettool
 * wireshark-gtk
 
-#### encryption
+### encryption
 * cryptsetup
 * dislocker
 
-#### recovery tools
+### recovery tools
 * testdisk
 * gddrescue
 * clonezilla

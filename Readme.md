@@ -17,17 +17,17 @@ This process has been containerized requiring `podman` and `buildah`. Execute th
 * firefox-esr
 
 ### efi
-* efibootmgr
+* [efibootmgr](https://wiki.archlinux.org/title/EFISTUB#efibootmgr)
 
 ### disk tools
-* gparted
-* smartmontools
-* gsmartcontrol
-* nwipe
-* hdparm
+* [gparted](https://rtech.support/books/troubleshooting-with-a-live-session/page/manipulating-partitions-and-disks-with-gparted)
+* [smartmontools](https://rtech.support/books/software-we-recommend/page/verifying-disk-health#bkmrk-smartmontools)
+* [gsmartcontrol](https://rtech.support/books/troubleshooting-with-a-live-session/page/checking-the-health-of-disks)
+* [nwipe](https://rtech.support/books/troubleshooting-with-a-live-session/page/wiping-disks#bkmrk-hdd)
+* [hdparm](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase)
 * ntfs-3g
 * hfsprogs
-* nvme-cli
+* [nvme-cli](https://rtech.support/books/troubleshooting-with-a-live-session/page/wiping-disks#bkmrk-nvme-ssd)
 
 ### files
 * p7zip-full
@@ -43,6 +43,6 @@ This process has been containerized requiring `podman` and `buildah`. Execute th
 * dislocker
 
 ### recovery tools
-* testdisk
+* [testdisk](https://rtech.support/books/troubleshooting-with-a-live-session/page/data-recovery#bkmrk-testdisk-to-recover-)
 * gddrescue
 * clonezilla

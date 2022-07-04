@@ -1,4 +1,4 @@
-desktop-image: "/isolinux/splash2.png"
+desktop-image: "/isolinux/splash.png"
 title-color: "#ffffff"
 title-font: "DejaVu Sans Bold 16"
 title-text: "rTechsupport Rescue Media (UEFI Mode) v3.0"

@@ -1,0 +1,5 @@
+[Deskktop Entry]
+Name=Memtest
+Exec=sudo stressapptest -W -s 3600
+Terminal=true
+Type=Application

@@ -17,6 +17,7 @@ hdparm
 ntfs-3g
 hfsprogs
 nvme-cli
+lvm2
 
 ## files
 p7zip-full

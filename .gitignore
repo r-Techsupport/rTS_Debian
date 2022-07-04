@@ -11,3 +11,4 @@ chroot/
 live-image-amd64.*
 chroot.*
 binary.modified_timestamps
+.DS_Store

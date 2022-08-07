@@ -9,6 +9,7 @@ binary/
 cache/
 chroot/
 live-image-amd64.*
+*.iso
 chroot.*
 binary.modified_timestamps
 .DS_Store

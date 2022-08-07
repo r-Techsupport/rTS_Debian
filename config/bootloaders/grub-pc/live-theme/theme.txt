@@ -1,7 +1,7 @@
 desktop-image: "/isolinux/splash.png"
 title-color: "#ffffff"
 title-font: "DejaVu Sans Bold 16"
-title-text: "rTechsupport Rescue Media (UEFI Mode) v3.0"
+title-text: "rTechsupport Rescue Media (UEFI Mode) 2022-08.0"
 message-font: "Unifont Regular 16"
 terminal-font: "Unifont Regular 16"
 

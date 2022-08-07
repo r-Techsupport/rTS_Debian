@@ -46,3 +46,6 @@ This process has been containerized requiring `podman` and `buildah`. Execute th
 * [testdisk](https://rtech.support/books/troubleshooting-with-a-live-session/page/data-recovery#bkmrk-testdisk-to-recover-)
 * gddrescue
 * clonezilla
+
+### memory testing
+* [StressAppTest](https://github.com/stressapptest/stressapptest)

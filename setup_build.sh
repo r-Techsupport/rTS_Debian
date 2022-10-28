@@ -8,7 +8,7 @@ lb config \
 	--uefi-secure-boot auto \
 	--cache false \
 	--apt-recommends true \
-	-a amd64 \
+	-a arm64 \
 	--binary-images iso \
 	--distribution bullseye \
 	--backports false \

@@ -47,5 +47,6 @@ This process has been containerized requiring `podman` and `buildah`. Execute th
 * gddrescue
 * clonezilla
 
-### memory testing
-* [StressAppTest](https://github.com/stressapptest/stressapptest)
+### hardware
+usbutils
+pciutils

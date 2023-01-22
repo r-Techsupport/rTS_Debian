@@ -19,7 +19,7 @@ lb config \
 	--security false \
 	--win32-loader false \
 	--apt-indices false \
-	--memtest false \
+	--memtest none \
 	--updates true \
 	--iso-application "rts bootable diagnostics and recovery" \
 	--iso-preparer "PipeItToDevNull" \

@@ -1,12 +1,12 @@
 label live-@FLAVOUR@
-	menu label ^Live Resuce Environment
+	menu label ^Boot to the diagnostics and recovery environment
 	menu default
 	linux @LINUX@
 	initrd @INITRD@
 	append @APPEND_LIVE@
 
 label live-@FLAVOUR@-failsafe
-	menu label ^Live Rescue Environment (nomodeset)
+	menu label ^Boot to the environment in graphics failsafe mode (nomodeset)
 	linux @LINUX@
 	initrd @INITRD@
 	append @APPEND_LIVE_FAILSAFE@

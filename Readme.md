@@ -48,5 +48,5 @@ This process has been containerized requiring `podman` and `buildah`. Execute th
 * clonezilla
 
 ### hardware
-usbutils
-pciutils
+* usbutils
+* pciutils

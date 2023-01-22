@@ -1,5 +1,0 @@
-[Desktop Entry]
-Name=Memtest
-Exec="xfce4-terminal -H -T 'Memtest' -e 'sudo stressapptest -s 3600'"
-Terminal=true
-Type=Application

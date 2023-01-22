@@ -19,9 +19,9 @@ lb config \
 	--security false \
 	--win32-loader false \
 	--apt-indices false \
-	--memtest "memtest86+" \
+	--memtest false \
 	--updates true \
-	--iso-application "r/techsupport testing and rescue media" \
+	--iso-application "rts bootable diagnostics and recovery" \
 	--iso-preparer "PipeItToDevNull" \
 	--iso-publisher "r/techsupport" \
 	--interactive false

@@ -10,7 +10,3 @@ label live-@FLAVOUR@-failsafe
 	linux @LINUX@
 	initrd @INITRD@
 	append @APPEND_LIVE_FAILSAFE@
-
-label memtest
-	menu label ^Memtest 86+
-	linux /live/memtest

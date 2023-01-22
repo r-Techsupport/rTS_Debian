@@ -38,5 +38,6 @@ testdisk
 gddrescue
 clonezilla
 
-## memory
-stressapptest
+## hardware
+usbutils
+pciutils

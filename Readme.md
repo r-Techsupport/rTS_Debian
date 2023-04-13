@@ -28,6 +28,7 @@ This process has been containerized requiring `podman` and `buildah`. Execute th
 * ntfs-3g
 * hfsprogs
 * [nvme-cli](https://rtech.support/books/troubleshooting-with-a-live-session/page/wiping-disks#bkmrk-nvme-ssd)
+* mdraid
 
 ### files
 * p7zip-full
@@ -50,3 +51,4 @@ This process has been containerized requiring `podman` and `buildah`. Execute th
 ### hardware
 * usbutils
 * pciutils
+* hardinfo

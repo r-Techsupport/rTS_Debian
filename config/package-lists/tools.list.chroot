@@ -18,7 +18,7 @@ ntfs-3g
 hfsprogs
 nvme-cli
 lvm2
-mdraid
+mdadm
 
 ## files
 p7zip-full

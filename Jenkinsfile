@@ -32,8 +32,7 @@ pipeline {
                 echo 'Uploading release...'
                 sh '''
                     mv live-image-amd64.iso rTS_RescueMedia.iso
-                    gh release delete testing --cleanup-tag --yes
-                    gh release create testing --target GIT_COMMIT --generate-notes 
+                    gh release delete testing --yes ; gh release create testing --target $GIT_COMMIT --generate-notes 
                     gh release upload testing rTS_RescueMedia.iso --clobber
                 '''
             }

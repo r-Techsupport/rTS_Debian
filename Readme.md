@@ -52,3 +52,6 @@ This process has been containerized and put into a DevOps pipeline requiring `po
 * usbutils
 * pciutils
 * hardinfo
+
+#### A note on sudo in podman and --privileged
+It is required for the `chroot` stage of livebuild. See https://github.com/containers/podman/issues/4619

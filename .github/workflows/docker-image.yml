@@ -7,7 +7,8 @@ on:
 jobs:
 
   build:
-
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
 
     steps:
@@ -25,9 +26,6 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         files: ./rTS_RescueMedia.iso
-        token: ${{ secrets.GITHUB_TOKEN }}
-        tag_name: testing
         name: testing
         prerelease: true
-        overwrite: true
     

@@ -30,9 +30,14 @@ pipeline {
         stage('Release upload') {
             steps {
                 echo 'Uploading release...'
+                try {
+                    sh 'gh release delete testing --yes'
+                } catch (err) {
+                    echo 'Testing release was missing'
+                }
                 sh '''
                     mv live-image-amd64.iso rTS_RescueMedia.iso
-                    gh release delete testing --yes ; gh release create testing --target $GIT_COMMIT --generate-notes --prerelease
+                    gh release create testing --target $GIT_COMMIT --generate-notes --prerelease
                     gh release upload testing rTS_RescueMedia.iso --clobber
                 '''
             }

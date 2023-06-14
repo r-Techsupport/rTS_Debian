@@ -3,6 +3,8 @@ name: Docker Image CI
 on:
 
   workflow_dispatch:
+  push:
+    
 
 jobs:
 
@@ -22,11 +24,20 @@ jobs:
         docker run --volume ${{ github.workspace }}:/repo --privileged --name build build:latest
         mv live-image-amd64.iso rTS_RescueMedia.iso
 
-    - name: Upload release to GitHub
+    - name: Upload testing release to GitHub
       uses: softprops/action-gh-release@v1
+      if: startsWith(github.ref, 'refs/tags/') != true
       with:
         files: ./rTS_RescueMedia.iso
         name: testing
         prerelease: true
         tag_name: testing
+        generate_release_notes: true
+        
+    - name: Release new Version
+      uses: softprops/action-gh-release@v1
+      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        files: ./rTS_RescueMedia.iso
+        generate_release_notes: true
     

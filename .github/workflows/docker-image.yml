@@ -28,5 +28,5 @@ jobs:
         files: ./rTS_RescueMedia.iso
         name: testing
         prerelease: true
-        tag: testing
+        tag_name: testing
     

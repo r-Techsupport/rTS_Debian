@@ -1,0 +1,33 @@
+name: Docker Image CI
+
+on:
+
+  workflow_dispatch:
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag build:latest
+    
+    
+    - name: Run container and build ISO
+      run: |
+        docker run --volume ${{ github.workspace }}:/repo --privileged --name build build:latest
+        mv live-image-amd64.iso rTS_RescueMedia.iso
+
+    - name: Upload release to GitHub
+      uses: softprops/action-gh-release@v1
+      with:
+        files: ./rTS_RescueMedia.iso
+        token: ${{ secrets.GITHUB_TOKEN }}
+        tag_name: testing
+        name: testing
+        prerelease: true
+        overwrite: true
+    

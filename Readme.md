@@ -7,7 +7,7 @@ This is build is for Bullseye (11).
 See `config\package-lists\` for included packages.
 
 ## Build
-This process has been containerized requiring `podman` and `buildah`. Execute the respective scripts (`Buildah.sh` and `PodmanRun.sh`) to produce an ISO based on the files contained in `/config`.
+This process has been containerized and put into a DevOps pipeline requiring `podman` and `buildah`. The pipeline will produce an ISO based on the files contained in `/config`.
 
 ## Tools list
 ### basics

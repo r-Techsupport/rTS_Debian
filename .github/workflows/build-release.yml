@@ -1,43 +1,35 @@
 name: Build and release ISO
-
 on:
-
   workflow_dispatch:
   push:
-    
-
+    tag: 
+      - "*"
+  schedule:
+    - cron: "0 0 1 * *"
 jobs:
-
   build:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag build:latest
-    
-    
     - name: Run container and build ISO
       run: |
         docker run --volume ${{ github.workspace }}:/repo --privileged --name build build:latest
         mv live-image-amd64.iso rTS_RescueMedia.iso
-
-    - name: Upload testing release to GitHub
+    - name: Upload release to GitHub
       uses: softprops/action-gh-release@v1
       if: startsWith(github.ref, 'refs/tags/') != true
       with:
         files: ./rTS_RescueMedia.iso
-        name: testing
         prerelease: true
-        tag_name: testing
+        tag_name: github.ref
         generate_release_notes: true
-        
     - name: Release new Version
       uses: softprops/action-gh-release@v1
       if: startsWith(github.ref, 'refs/tags/')
       with:
         files: ./rTS_RescueMedia.iso
         generate_release_notes: true
-    

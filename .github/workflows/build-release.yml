@@ -25,7 +25,6 @@ jobs:
       with:
         files: ./rTS_RescueMedia.iso
         prerelease: true
-        tag_name: github.ref
         generate_release_notes: true
     - name: Release new Version
       uses: softprops/action-gh-release@v1

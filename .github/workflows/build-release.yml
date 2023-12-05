@@ -32,9 +32,9 @@ jobs:
         TAG=v$(date -Iseconds | sed 's/[T:\+]/-/g')
         echo "$TAG"
         echo "tag=$TAG" >> $GITHUB_OUTPUT
-        git tag -a $TAG -m "Published version $TAG" ${GITHUB_SHA}
         git config user.name "GitHub Action"
         git config user.email "admin@rtech.support"
+        git tag -a $TAG -m "Published version $TAG" ${GITHUB_SHA}
         git push origin $TAG
 
     - name: Upload release to GitHub

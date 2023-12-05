@@ -57,3 +57,5 @@ set -o vi
 # Exports
 export VISUAL=vim
 export EDITOR="$VISUAL"
+# Path
+export PATH=$PATH:/usr/sbin

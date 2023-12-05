@@ -1,7 +1,7 @@
 desktop-image: "/isolinux/splash.png"
 title-color: "#ffffff"
 title-font: "DejaVu Sans Bold 16"
-title-text: "rTS Bootable Diagnostics and Recovery Environment (UEFI Mode) 2023-01.0"
+title-text: "rTS Bootable Diagnostics and Recovery Environment (UEFI Mode)"
 message-font: "Unifont Regular 16"
 terminal-font: "Unifont Regular 16"
 

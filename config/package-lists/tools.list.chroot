@@ -28,7 +28,7 @@ dnsutils
 traceroute
 gnome-nettool
 wireshark-gtk
-mtr
+mtr-tiny
 
 ## encryption
 cryptsetup

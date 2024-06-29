@@ -20,14 +20,14 @@ This process has been containerized and put into a DevOps pipeline requiring `po
 * [efibootmgr](https://wiki.archlinux.org/title/EFISTUB#efibootmgr)
 
 ### disk tools
-* [gparted](https://rtech.support/books/troubleshooting-with-a-live-session/page/manipulating-partitions-and-disks-with-gparted)
-* [smartmontools](https://rtech.support/books/software-we-recommend/page/verifying-disk-health#bkmrk-smartmontools)
-* [gsmartcontrol](https://rtech.support/books/troubleshooting-with-a-live-session/page/checking-the-health-of-disks)
-* [nwipe](https://rtech.support/books/troubleshooting-with-a-live-session/page/wiping-disks#bkmrk-hdd)
+* [gparted](https://rtech.support/docs/disks/gparted)
+* [smartmontools](https://rtech.support/docs/disks/disk-health.html#smartmontools)
+* [gsmartcontrol](https://rtech.support/docs/disks/disk-health.html#gsmartcontrol-gui-method)
+* [nwipe](https://rtech.support/docs/disks/disk-wipe.html)
 * [hdparm](https://ata.wiki.kernel.org/index.php/ATA_Secure_Erase)
 * ntfs-3g
 * hfsprogs
-* [nvme-cli](https://rtech.support/books/troubleshooting-with-a-live-session/page/wiping-disks#bkmrk-nvme-ssd)
+* [nvme-cli](https://rtech.support/docs/disks/disk-wipe.html#nvme-ssd)
 * mdadm
 
 ### files
@@ -44,7 +44,7 @@ This process has been containerized and put into a DevOps pipeline requiring `po
 * dislocker
 
 ### recovery tools
-* [testdisk](https://rtech.support/books/troubleshooting-with-a-live-session/page/data-recovery#bkmrk-testdisk-to-recover-)
+* [testdisk](https://rtech.support/docs/disks/data-recovery/testdisk.html)
 * gddrescue
 * clonezilla
 

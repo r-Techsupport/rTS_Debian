@@ -10,7 +10,7 @@ lb config \
 	--apt-recommends true \
 	-a amd64 \
 	--binary-images iso \
-	--distribution bullseye \
+	--distribution trixie \
 	--backports false \
 	--mode debian \
 	--system live \

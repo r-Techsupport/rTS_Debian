@@ -27,7 +27,7 @@ p7zip-full
 dnsutils
 traceroute
 gnome-nettool
-wireshark-gtk
+wireshark
 mtr-tiny
 
 ## encryption

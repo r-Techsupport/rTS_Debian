@@ -45,7 +45,7 @@ jobs:
           name: rTS_RescueMedia
           path: ./rTS_RescueMedia.iso
 
-  tag-release:
+  tag-upload-release:
     needs: build-iso
     if: github.ref == 'refs/heads/master' || github.event_name == 'schedule'
     runs-on: ubuntu-latest

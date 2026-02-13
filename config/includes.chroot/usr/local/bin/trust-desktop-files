@@ -1,0 +1,31 @@
+#!/bin/bash
+# Mark desktop files as trusted to prevent XFCE warnings
+
+# Wait for desktop to be ready
+sleep 5
+
+# Kill Thunar to force refresh after setting metadata
+killall thunar 2>/dev/null || true
+
+# Trust desktop files
+for desktop_file in /home/user/Desktop/*.desktop; do
+    if [ -f "$desktop_file" ]; then
+        chmod +x "$desktop_file"
+        file_uri="file://$(realpath "$desktop_file")"
+        gio set "$file_uri" "metadata::trusted" true 2>/dev/null || true
+        gio set "$file_uri" "metadata::xfce-exe-checksum" "$(sha256sum "$desktop_file" | cut -d' ' -f1)" 2>/dev/null || true
+    fi
+done
+
+# Trust System Recovery desktop files
+for desktop_file in /home/user/Desktop/System_Recovery/*.desktop; do
+    if [ -f "$desktop_file" ]; then
+        chmod +x "$desktop_file"
+        file_uri="file://$(realpath "$desktop_file")"
+        gio set "$file_uri" "metadata::trusted" true 2>/dev/null || true
+        gio set "$file_uri" "metadata::xfce-exe-checksum" "$(sha256sum "$desktop_file" | cut -d' ' -f1)" 2>/dev/null || true
+    fi
+done
+
+# Restart Thunar
+thunar --daemon &

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Trust Desktop Files
+Comment=Mark desktop shortcuts as trusted
+Exec=/usr/local/bin/trust-desktop-files
+NoDisplay=true
+X-GNOME-Autostart-enabled=true

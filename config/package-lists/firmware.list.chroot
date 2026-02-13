@@ -1,10 +1,12 @@
-# amd firmware
-firmware-amd-graphics
+# firmware list
 
-# network firmware
-firmware-iwlwifi
-firmware-realtek
-firmware-atheros
-firmware-bnx2
-firmware-bnx2x
-firmware-brcm80211
+# CPU microcode
+intel-microcode
+amd64-microcode
+
+# GPU firmware
+firmware-amd-graphics
+firmware-misc-nonfree
+
+# Generic firmware bundle (includes all WiFi and network firmware)
+firmware-linux-nonfree

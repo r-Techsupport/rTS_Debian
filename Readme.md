@@ -4,7 +4,7 @@ This media was created to assist users trying to rescue their systems and data. 
 
 This build is for Trixie (13). The desktop environment is XFCE4.
 
-See `config\package-lists\` for included packages.
+See `config/package-lists/` for included packages.
 
 ## Build
 This process has been containerized and put into a DevOps pipeline requiring `podman` and `buildah`. The pipeline will produce an ISO based on the files contained in `/config`.

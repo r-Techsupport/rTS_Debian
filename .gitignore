@@ -1,10 +1,16 @@
 .build/
+.vscode/
 config/binary
 config/bootstrap
 config/build
 config/chroot
 config/common
-config/hooks/normal/0500-reproducible-glibc.hook.chroot
+
+# Auto-generated hook symlinks (created by live-build)
+config/hooks/normal/1000-*.hook.chroot
+config/hooks/normal/[1-9][0-9][0-9][0-9]-*.hook.chroot
+config/hooks/normal/*-reproducible-*.hook.chroot
+
 binary/
 cache/
 chroot/

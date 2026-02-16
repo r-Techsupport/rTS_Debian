@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Display Settings
+Comment=Screen Resolution and Layout Configuration
+Exec=arandr
+Icon=preferences-desktop-display
+Terminal=false
+Categories=Settings;DesktopSettings;GTK;
+StartupNotify=true

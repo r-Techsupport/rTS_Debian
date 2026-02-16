@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=rTS Wiki
+Comment=Open the r/Techsupport knowledge base and documentation
+Exec=firefox https://rtech.support/
+Icon=web-browser
+Terminal=false
+Categories=Network;WebBrowser;
+StartupNotify=true
